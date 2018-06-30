@@ -101,5 +101,5 @@ if __name__ == "__main__":
       server.serve_forever()
     else:
        while True:
-         text = "The doctor said Charles is ill.We took him to the hospital."
+         text = "A fire in a Bangladeshi garment factory has left at least 37 people dead and 100 hospitalized. Most of the deceased were killed in the crush as workers tried to flee the blaze in the four-story building."
          print_predictions(make_predictions(text, model))
