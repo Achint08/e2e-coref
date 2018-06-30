@@ -100,6 +100,6 @@ if __name__ == "__main__":
       print("Running server at port {}".format(port))
       server.serve_forever()
     else:
-      while True:
-        text = "The doctor said Charles is ill.We took him to the hospital."
-        print_predictions(make_predictions(text, model))
+      text = "The doctor said Charles is ill.We took him to the hospital."
+      print(text)
+      print_predictions(make_predictions(text, model))
