@@ -101,5 +101,5 @@ if __name__ == "__main__":
       server.serve_forever()
     else:
       while True:
-        text = raw_input("Document text: ")
+        text = "The doctor said Charles is ill.We took him to the hospital."
         print_predictions(make_predictions(text, model))
